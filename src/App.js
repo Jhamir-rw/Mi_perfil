@@ -372,6 +372,13 @@ const Plan = () => {
             <tr><td>4</td><td>Tailwind + JavaScript</td><td>Estilos avanzados e interactividad con JS.</td></tr>
             <tr><td>5</td><td>Integración + Intro React</td><td>Unir tecnologías y primera app en React.</td></tr>
             <tr><td>6</td><td>React con Vite/Next</td><td>Entornos modernos y despliegue.</td></tr>
+            <tr>
+              <td>7</td>
+              <td>Aplicación práctica con React + Vite (TypeScript)</td>
+              <td>
+                Comprender los fundamentos del desarrollo con React y Vite en conjunto con TypeScript, mediante la elaboración de un ejercicio aplicativo que permita afianzar el uso de componentes, estados, propiedades y tipado estático en una interfaz web dinámica.
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -388,6 +395,10 @@ const Proyectos = () => {
     { titulo: "Semana 04 | Tailwind + JS", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana04" },
     { titulo: "Semana 05 | Integración + React", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana05" },
     { titulo: "Semana 06 | React con Vite", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana06" },
+    { 
+      titulo: "Semana 07 | React + Vite (TypeScript)", 
+      url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana07" 
+    },
   ];
   const [q, setQ] = useState("");
   const filtered = semanas.filter(s => s.titulo.toLowerCase().includes(q.toLowerCase()));
@@ -414,6 +425,7 @@ const Proyectos = () => {
     </section>
   );
 };
+
 
 const Contacto = () => {
   const reveal = useRevealOnScroll();
