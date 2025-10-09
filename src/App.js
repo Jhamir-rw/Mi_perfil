@@ -363,7 +363,7 @@ const Plan = () => {
         <h2>Plan de Actividades Semanales</h2>
         <table>
           <thead>
-            <tr><th>Semana</th><th>Tema</th><th>Objetivo</th></tr>
+            <tr><th>Semana</th><th>Tema</th><th>Aprendido</th></tr>
           </thead>
           <tbody>
             <tr><td>1</td><td>Introducción y VS Code</td><td>Entorno, atajos y flujo de trabajo.</td></tr>
@@ -376,7 +376,7 @@ const Plan = () => {
               <td>7</td>
               <td>Aplicación práctica con React + Vite (TypeScript)</td>
               <td>
-                Comprender los fundamentos del desarrollo con React y Vite en conjunto con TypeScript, mediante la elaboración de un ejercicio aplicativo que permita afianzar el uso de componentes, estados, propiedades y tipado estático en una interfaz web dinámica.
+               Comprender el desarrollo de react + vite
               </td>
             </tr>
           </tbody>
