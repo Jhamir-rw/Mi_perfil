@@ -366,20 +366,62 @@ const Plan = () => {
             <tr><th>Semana</th><th>Tema</th><th>Aprendido</th></tr>
           </thead>
           <tbody>
-            <tr><td>1</td><td>Introducción y VS Code</td><td>Entorno, atajos y flujo de trabajo.</td></tr>
-            <tr><td>2</td><td>HTML y CSS</td><td>Estructura semántica y estilos responsive.</td></tr>
-            <tr><td>3</td><td>Ejercicios HTML/CSS</td><td>Prácticas de maquetación y componentes.</td></tr>
-            <tr><td>4</td><td>Tailwind + JavaScript</td><td>Estilos avanzados e interactividad con JS.</td></tr>
-            <tr><td>5</td><td>Integración + Intro React</td><td>Unir tecnologías y primera app en React.</td></tr>
-            <tr><td>6</td><td>React con Vite/Next</td><td>Entornos modernos y despliegue.</td></tr>
-            <tr>
-              <td>7</td>
-              <td>Aplicación práctica con React + Vite (TypeScript)</td>
-              <td>
-               Comprender el desarrollo de react + vite
-              </td>
-            </tr>
-          </tbody>
+  <tr><td>1</td><td>Introducción y VS Code</td><td>Entorno, atajos y flujo de trabajo.</td></tr>
+  <tr><td>2</td><td>HTML y CSS</td><td>Estructura semántica y estilos responsive.</td></tr>
+  <tr><td>3</td><td>Ejercicios HTML/CSS</td><td>Prácticas de maquetación y componentes.</td></tr>
+  <tr><td>4</td><td>Tailwind + JavaScript</td><td>Estilos avanzados e interactividad con JS.</td></tr>
+  <tr><td>5</td><td>Integración + Intro React</td><td>Unir tecnologías y primera app en React.</td></tr>
+  <tr><td>6</td><td>React con Vite/Next</td><td>Entornos modernos y despliegue.</td></tr>
+  <tr><td>7</td><td>React + Vite (TypeScript)</td><td>Comprensión del flujo moderno con TypeScript.</td></tr>
+
+  <tr>
+    <td>8</td>
+    <td>Examen Parcial</td>
+    <td>Evaluación de conocimientos frontend y fundamentos web.</td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>Teoría Backend Java (JSP / Tomcat / Maven)</td>
+    <td>Fundamentos del backend con Java, JSP, Tomcat y Maven.</td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>CRUD Estudiante (Spring Boot + MySQL + Postman)</td>
+    <td>Desarrollo de un CRUD usando Spring Boot y validación con Postman.</td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>CRUD Docente (Swagger + Postman)</td>
+    <td>Documentación de APIs con Swagger y endpoints adicionales.</td>
+  </tr>
+
+  <tr>
+    <td>12</td>
+    <td>Teoría Backend PHP (Apache + Composer)</td>
+    <td>Arquitectura backend con PHP moderno y dependencias.</td>
+  </tr>
+
+  <tr>
+    <td>13</td>
+    <td>CRUD Laravel (MySQL + Blade + Tailwind)</td>
+    <td>Desarrollo de CRUD completo usando Laravel.</td>
+  </tr>
+
+  <tr>
+    <td>14</td>
+    <td>Python + Flask + App Inteligente (LLM)</td>
+    <td>CRUD con Flask y aplicación inteligente usando LLM tipo LLaMA.</td>
+  </tr>
+
+  <tr>
+    <td>15</td>
+    <td>Proyecto Final Integrador</td>
+    <td>Integración frontend + backend y presentación final.</td>
+  </tr>
+</tbody>
         </table>
       </div>
     </section>
@@ -389,17 +431,31 @@ const Plan = () => {
 const Proyectos = () => {
   const reveal = useRevealOnScroll();
   const semanas = [
-    { titulo: "Semana 01 | VS Code", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana01" },
-    { titulo: "Semana 02 | HTML y CSS", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana02" },
-    { titulo: "Semana 03 | HTML/CSS Práctico", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana03" },
-    { titulo: "Semana 04 | Tailwind + JS", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana04" },
-    { titulo: "Semana 05 | Integración + React", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana05" },
-    { titulo: "Semana 06 | React con Vite", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana06" },
-    { 
-      titulo: "Semana 07 | React + Vite (TypeScript)", 
-      url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana07" 
-    },
-  ];
+  { titulo: "Semana 01 | VS Code", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana01" },
+  { titulo: "Semana 02 | HTML y CSS", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana02" },
+  { titulo: "Semana 03 | HTML/CSS Práctico", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana03" },
+  { titulo: "Semana 04 | Tailwind + JavaScript", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana04" },
+  { titulo: "Semana 05 | Integración + React", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana05" },
+  { titulo: "Semana 06 | React con Vite", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana06" },
+  { titulo: "Semana 07 | React + Vite (TypeScript)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana07" },
+
+  { titulo: "Semana 08 | Examen Parcial", url: "#" },
+
+  { titulo: "Semana 09 | Backend Java (JSP / Tomcat / Maven)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana09" },
+
+  { titulo: "Semana 10 | CRUD Estudiante (Spring Boot)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana10" },
+
+  { titulo: "Semana 11 | CRUD Docente (Swagger + Postman)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana11" },
+
+  { titulo: "Semana 12 | Backend PHP (Apache + Composer)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana12" },
+
+  { titulo: "Semana 13 | CRUD Laravel", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana13" },
+
+  { titulo: "Semana 14 | Flask + LLM (App Inteligente)", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana14" },
+
+  { titulo: "Semana 15 | Proyecto Final Integrador", url: "https://github.com/Jhamir-rw/PortafolioAcademico/tree/main/SemanasAcademicas/Semana15" },
+];
+
   const [q, setQ] = useState("");
   const filtered = semanas.filter(s => s.titulo.toLowerCase().includes(q.toLowerCase()));
 
